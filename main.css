@@ -1,0 +1,131 @@
+/*****************general style CSS3 for myFirstProject*****************/
+/* Если кто видит этот кто, то знайте, я просто тренируюсь*/
+body {
+  margin: 0px;
+  padding: 10px;
+  background-color: bisque;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.title_languages {
+  text-align: left;
+  font-weight: bold;
+}
+ul {
+  list-style-type: decimal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px 0 0 25px;
+  border: 1px solid green;
+  width: 410px;
+  height: 200px;
+  border-radius: 1px;
+  background-color: aliceblue;
+  overflow: scroll;
+}
+ul:hover {
+  background-color: rgb(189, 220, 248);
+  cursor: grab;
+}
+li {
+  padding-top: 5px;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  background-color: chocolate;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  border: 2px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+button:hover {
+  font-weight: bold;
+  border: 3px solid green;
+  background-color: rgb(214, 220, 225);
+}
+
+.btn_back {
+  margin-right: 4px;
+}
+
+.border_bottom {
+  margin-top: 15px;
+  width: auto;
+  border: 1px solid green;
+}
+
+.vertical_border {
+  border-right: 2px solid green;
+  height: 300px;
+  /* width: 2px; */
+  padding-left: 50px;
+  position: absolute;
+  left: 420px;
+  top: 150px;
+}
+/* Футер*/
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 99%;
+}
+/*Поле для ввода текста*/
+
+textarea {
+  width: 300px;
+  height: 180px;
+  border: 2px solid green;
+  background-color: aliceblue;
+}
+
+.btn_send {
+  margin-top: 4px;
+}
+
+.btn_p {
+  text-align: left;
+  font-size: 1.1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header_panel {
+  min-width: 500px;
+  height: 40px;
+
+  background-color: chocolate;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header_panel a {
+  padding-left: 70px;
+  color: #363535;
+  text-decoration: none;
+  margin: auto;
+}
+.header_panel a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
